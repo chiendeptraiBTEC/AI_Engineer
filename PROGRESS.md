@@ -6,8 +6,8 @@
 
 | Module | Trạng thái | Artifact chính | Bằng chứng |
 |---|---|---|---|
-| 0 — Setup & Refresh | 🟡 Đang làm | CLI nhỏ + Git workflow | Chưa hoàn thành |
-| 1 — Data + SQL | ⬜ Chưa bắt đầu | DA1 — EDA | — |
+| 0 — Setup & Refresh | ✅ Hoàn thành | CLI nhỏ + Git workflow | Đã hoàn thành Module 0 |
+| 1 — Data + SQL | 🟡 Đang làm | DA1 — EDA | ✅ Buổi 1 — NumPy Refresh + tạo mảng |
 | 2 — ML Core | ⬜ Chưa bắt đầu | DA2 — ML end-to-end | — |
 | 3 — Deep Learning | ⬜ Chưa bắt đầu | DA3 — Image + nanoGPT | — |
 | 4 — LLM / AI Engineering | ⬜ Chưa bắt đầu | DA4 — Production RAG v1/v2 | — |
@@ -20,7 +20,19 @@ Mỗi buổi hoặc mỗi block học đáng kể, thêm một dòng:
 
 | Ngày | Buổi/Chủ đề | Tôi đã tự làm gì? | Bằng chứng | Vướng mắc / Bài học |
 |---|---|---|---|---|
-| YYYY-MM-DD | Ví dụ: Conda + VS Code | Tạo env, chọn kernel, chạy notebook | commit/link/file | Ghi lỗi đã gặp và cách xử lý |
+| 2026-08-27 | Module 1 · Buổi 1 — NumPy Refresh + tạo mảng | Hoàn thành 15 bài đầu numpy-100; ôn array, shape, dtype, indexing/slicing, mean và axis | 15 bài đã làm và review trong buổi học | Hiểu `axis`; sửa cách dùng `np.empty`, random vector và indexing biên |
+
+## Module 1 — Chi tiết tiến độ
+
+- [x] Buổi 1 — NumPy Refresh + tạo mảng
+- [ ] Buổi 2 — Boolean & fancy indexing
+- [ ] Buổi 3 — Broadcasting & vectorization
+- [ ] Buổi 4 — Phép toán ma trận & axis
+- [ ] Buổi 5 — Tổng hợp NumPy (mini-project)
+- [ ] Buổi 6–10 — Pandas phần 1
+- [ ] Buổi 11–15 — Làm sạch & trực quan hóa
+- [ ] Buổi 16–19 — SQL
+- [ ] Buổi 20 — Dự án 1: EDA hoàn chỉnh
 
 ## Weekly Review
 
@@ -44,14 +56,15 @@ Không chuyển module chỉ vì đã xem hết tài liệu. Chỉ chuyển khi 
 
 ## Current Focus
 
-**Module 0 — Setup & Refresh**
+**Module 1 — Data + SQL**
 
-Ưu tiên hiện tại:
+Tiến độ hiện tại:
 
-- [ ] Chuẩn hóa môi trường Python.
-- [ ] Ôn Python/OOP đủ dùng cho project.
-- [ ] Git branch/commit/push cơ bản.
-- [ ] Ship một CLI nhỏ có cấu trúc project rõ ràng.
-- [ ] Viết README hướng dẫn chạy từ máy sạch.
+- [x] Buổi 1 — NumPy Refresh + tạo mảng.
+- [ ] Buổi 2 — Boolean & fancy indexing.
 
-> Không mở thêm khóa học mới trước khi hoàn thành artifact Module 0.
+Ưu tiên tiếp theo:
+
+- [ ] Hiểu Boolean indexing và mảng điều kiện `True/False`.
+- [ ] Lọc dữ liệu theo điều kiện mà không dùng vòng lặp.
+- [ ] Hiểu fancy indexing và lấy phần tử bằng danh sách chỉ số.
