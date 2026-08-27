@@ -7,7 +7,7 @@
 | Module | Trạng thái | Artifact chính | Bằng chứng |
 |---|---|---|---|
 | 0 — Setup & Refresh | ✅ Hoàn thành | CLI nhỏ + Git workflow | Đã hoàn thành Module 0 |
-| 1 — Data + SQL | 🟡 Đang làm | DA1 — EDA | ✅ Buổi 1 — NumPy Refresh + tạo mảng |
+| 1 — Data + SQL | 🟡 Đang làm | DA1 — EDA | ✅ Buổi 1–2 — NumPy |
 | 2 — ML Core | ⬜ Chưa bắt đầu | DA2 — ML end-to-end | — |
 | 3 — Deep Learning | ⬜ Chưa bắt đầu | DA3 — Image + nanoGPT | — |
 | 4 — LLM / AI Engineering | ⬜ Chưa bắt đầu | DA4 — Production RAG v1/v2 | — |
@@ -21,11 +21,12 @@ Mỗi buổi hoặc mỗi block học đáng kể, thêm một dòng:
 | Ngày | Buổi/Chủ đề | Tôi đã tự làm gì? | Bằng chứng | Vướng mắc / Bài học |
 |---|---|---|---|---|
 | 2026-08-27 | Module 1 · Buổi 1 — NumPy Refresh + tạo mảng | Hoàn thành 15 bài đầu numpy-100; ôn array, shape, dtype, indexing/slicing, mean và axis | 15 bài đã làm và review trong buổi học | Hiểu `axis`; sửa cách dùng `np.empty`, random vector và indexing biên |
+| 2026-08-27 | Module 1 · Buổi 2 — Boolean & fancy indexing | Lọc số dương, lọc nhiều điều kiện, thay giá trị theo điều kiện, lấy phần tử bằng danh sách index; áp dụng trên dữ liệu điểm 2D | 7/7 bài thực hành đúng | Phân biệt Boolean indexing = chọn theo điều kiện; Fancy indexing = chọn theo vị trí |
 
 ## Module 1 — Chi tiết tiến độ
 
 - [x] Buổi 1 — NumPy Refresh + tạo mảng
-- [ ] Buổi 2 — Boolean & fancy indexing
+- [x] Buổi 2 — Boolean & fancy indexing
 - [ ] Buổi 3 — Broadcasting & vectorization
 - [ ] Buổi 4 — Phép toán ma trận & axis
 - [ ] Buổi 5 — Tổng hợp NumPy (mini-project)
@@ -61,10 +62,11 @@ Không chuyển module chỉ vì đã xem hết tài liệu. Chỉ chuyển khi 
 Tiến độ hiện tại:
 
 - [x] Buổi 1 — NumPy Refresh + tạo mảng.
-- [ ] Buổi 2 — Boolean & fancy indexing.
+- [x] Buổi 2 — Boolean & fancy indexing.
+- [ ] Buổi 3 — Broadcasting & vectorization.
 
 Ưu tiên tiếp theo:
 
-- [ ] Hiểu Boolean indexing và mảng điều kiện `True/False`.
-- [ ] Lọc dữ liệu theo điều kiện mà không dùng vòng lặp.
-- [ ] Hiểu fancy indexing và lấy phần tử bằng danh sách chỉ số.
+- [ ] Hiểu broadcasting giữa các array có shape khác nhau.
+- [ ] Hiểu vectorization và vì sao có thể thay vòng lặp bằng phép toán trên toàn mảng.
+- [ ] Chuẩn hóa dữ liệu bằng `(x - mean) / std` không dùng vòng lặp.
